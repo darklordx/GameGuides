@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jlsqetiMmR/SErgDoTdygOSj53tJakfwS8RZrTPpnJ53abOE3Q9Jlan6/c/IdnrhgDDeaXYSR5F4trXq1x1NHA==",
+  "success": true,
+  "projectFilePath": "C:\\Documents\\GameGuides\\GameGuides\\GameGuides.iOS\\GameGuides.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
