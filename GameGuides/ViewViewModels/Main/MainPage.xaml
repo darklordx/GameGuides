@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameGuides.ViewViewModels.Main.MainPage">
+    <StackLayout>
+        <CollectionView x:Name ="ItemListView"
+                    ItemsSource="{Binding PeopleNames, Mode =TwoWay}"
+                    SelectionMode="None"
+                    ItemsLayout ="VerticalList"
+                    >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" x:DataType="model:Person">
+                        <Grid Padding="5,5,20,10" Margin="12">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width ="150"/>
+                                <ColumnDefinition Width ="100"/>
+                                <ColumnDefinition Width ="100"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="{Binding Title}"
+                               LineBreakMode="NoWrap"
+                               Grid.Column = "0"
+                               Grid.Row = "0"
+                               FontSize = "18"
+                               FontAttributes = "Bold"/>
+
+                            <Button Text="Update"
+                               Grid.Column = "1"
+                               Grid.Row = "0"
+                               FontSize = "18"
+                               FontAttributes = "Italic"
+                               CommandParameter="{Binding .}"
+                               Clicked="UpdateButton_OnClicked"
+                            />
+
+                        </Grid>
+                        <Frame HeightRequest="2" Padding="0" HorizontalOptions="FillAndExpand" BackgroundColor="#000000"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </StackLayout>
+</ContentPage>

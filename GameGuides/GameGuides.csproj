@@ -6,7 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewViewModels\Guide\MineSweeper\**" />
+    <EmbeddedResource Remove="ViewViewModels\Guide\MineSweeper\**" />
+    <None Remove="ViewViewModels\Guide\MineSweeper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ViewViewModels\Guide\GuidePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ViewViewModels\Main\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
