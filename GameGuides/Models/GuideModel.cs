@@ -25,7 +25,9 @@ namespace GameGuides.Models
         public static List<GuideModel> getGuides()
         {
             return new List<GuideModel>{
-                new GuideModel("Tic Tac Toe", "Use X and O boi", "Win pls")
+                new GuideModel("Tic Tac Toe", "Use X and O boi", "Win pls"),
+                new GuideModel("Chess", "uhhhhhh go checkmate", "Win pls"),
+                new GuideModel("Checkers", "frog", "Win pls")
             };
         }
 

@@ -8,9 +8,9 @@ namespace GameGuides.ViewViewModels.Guide
 {
     class GuidePageViewModel
     {
-            public string newName { get; set; }
-            public string newInfo { get; set; }
-            public string newImage { get; set; }
+            public string Rules { get; set; }
+            public string Title { get; set; }
+            public string Strategies { get; set; }
 
             //public ImageSource SubmitIcon { get; set; }
 
@@ -25,9 +25,9 @@ namespace GameGuides.ViewViewModels.Guide
             //}
             public GuidePageViewModel(GuideModel Game)
             {
-                newName = Game.Rules;
-                newInfo = Game.Strategies;
-                newImage = Game.Title;
+                Rules = Game.Rules;
+                Strategies = Game.Strategies;
+                Title = Game.Title;
                 //SubmitIcon = ImageSource.FromResource("MyFirstProject.Images.iconssubmit.png");
                 //models = src;
             }

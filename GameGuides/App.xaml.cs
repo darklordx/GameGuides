@@ -1,8 +1,7 @@
-﻿using System;
+﻿using GameGuides.ViewViewModels.Main;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using GameGuides.Services;
-using GameGuides.Views;
 
 namespace GameGuides
 {
@@ -13,8 +12,8 @@ namespace GameGuides
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            //DependencyService.Register<MockDataStore>();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

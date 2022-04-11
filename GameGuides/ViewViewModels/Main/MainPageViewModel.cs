@@ -13,7 +13,7 @@ namespace GameGuides.ViewViewModels.Main
     {
         //public ObservableCollection<Person> PeopleNames;
         private ObservableCollection<GuideModel> MaskedGameGuides;
-        public ObservableCollection<GuideModel> RealGameGuides
+        public ObservableCollection<GuideModel> GameGuides
         {
             get
             {
@@ -46,7 +46,7 @@ namespace GameGuides.ViewViewModels.Main
         private List<GuideModel> _person;
         public MainPageViewModel()
         {
-            RealGameGuides = new ObservableCollection<GuideModel>();
+            GameGuides = new ObservableCollection<GuideModel>();
             _person = GuideModel.getGuides();
             this.LoadPersons();
         }
@@ -55,10 +55,10 @@ namespace GameGuides.ViewViewModels.Main
         {
             try
             {
-                RealGameGuides.Clear();
+                GameGuides.Clear();
                 foreach (var p in _person)
                 {
-                    RealGameGuides.Add(p);
+                    GameGuides.Add(p);
                 }
             }
             catch (Exception ex)
