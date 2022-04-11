@@ -1,0 +1,8 @@
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\GameGuides.csprojAssemblyReference.cache
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\ViewViewModels\Guide\GuidePage.xaml.g.cs
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\ViewViewModels\Main\MainPage.xaml.g.cs
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\GameGuides.AssemblyInfoInputs.cache
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\GameGuides.AssemblyInfo.cs
+C:\Documents\GameGuides\GameGuides\GameGuides\obj\Debug\netstandard2.0\GameGuides.csproj.CoreCompileInputs.cache

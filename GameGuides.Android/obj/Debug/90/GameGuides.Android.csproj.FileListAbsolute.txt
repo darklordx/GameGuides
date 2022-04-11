@@ -1,0 +1,10 @@
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\build.props
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\adb.props
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\GameGuides.Android.csprojAssemblyReference.cache
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\res.flag
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\R.txt
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\R.cs.flag
+C:\Documents\GameGuides\GameGuides\GameGuides.Android\obj\Debug\90\GameGuides.Android.csproj.CoreCompileInputs.cache
