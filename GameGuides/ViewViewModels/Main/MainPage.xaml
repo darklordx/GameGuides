@@ -4,7 +4,15 @@
              x:Class="GameGuides.ViewViewModels.Main.MainPage"
              xmlns:model="clr-namespace:GameGuides.Models">
     <StackLayout>
-        <Label Text="Hello!"/>
+        <Frame BackgroundColor="#2196F3"
+               Padding="1"
+               CornerRadius="0">
+            <Label 
+                Text="Game Guides"
+                HorizontalTextAlignment ="Center"
+                TextColor="White"
+                FontSize="36"/>
+        </Frame>
         <CollectionView x:Name ="ItemListView"
                     ItemsSource="{Binding GameGuides, Mode =TwoWay}"
                     SelectionMode="None"
@@ -30,7 +38,7 @@
                                FontSize = "18"
                                FontAttributes = "Bold"/>
 
-                            <Button Text="Update"
+                            <Button Text="Go"
                                Grid.Column = "2"
                                Grid.Row = "0"
                                FontSize = "18"
